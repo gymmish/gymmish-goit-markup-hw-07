@@ -1,0 +1,39 @@
+.teem-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+  margin-bottom: 10px;
+}
+.teem-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin-bottom: 16px;
+}
+.teem-list {
+  display: flex;
+}
+
+.teem-item {
+  margin-right: 30px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.teem-section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: #f5f4fa;
+}
+
+.teem-box {
+  padding: 30px 0 30px 0;
+}
