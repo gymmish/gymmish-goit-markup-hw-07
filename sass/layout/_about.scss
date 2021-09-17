@@ -13,7 +13,7 @@
   justify-content: center;
 }
 
-.about-title-text {
+.about-list__title-text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -22,7 +22,7 @@
   color: var(--main-title-color);
   margin-bottom: 10px;
 }
-.about-text {
+.about-list__text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -30,7 +30,7 @@
   color: var(--main-text-color);
 }
 
-.about-item {
+.about-list__item {
   flex-basis: auto;
   margin-right: 30px;
   width: 270px;

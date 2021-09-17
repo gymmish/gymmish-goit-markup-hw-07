@@ -69,7 +69,7 @@
   margin-bottom: 20px;
 }
 
-.footer-list-item {
+.footer-icon-item {
   display: flex;
   justify-content: center;
 }
@@ -77,14 +77,14 @@
 .colortext {
   color: #ffffff;
 }
-.footer-item-adress {
+.footer-list__item-adress {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-contacts {
+.footer-list__contacts {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -99,13 +99,12 @@
   height: 252px;
 }
 
-.footer-item {
+.footer-list__item {
   margin-bottom: 9px;
   &:last-child {
     margin-bottom: 0px;
   }
 }
-
 
 .footer-item-icon:not(:last-child) {
   margin-right: 10px;

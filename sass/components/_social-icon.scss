@@ -1,4 +1,4 @@
-.socials-link {
+.socials-list__link {
   width: 44px;
   height: 44px;
   display: flex;
@@ -12,11 +12,11 @@
     background-color: var(--accent-color);
   }
 }
-.socials-icon {
+.socials-list__icon {
   fill: var(--icon-colour);
   transition: fill 250ms linear;
-  .socials-link:hover &,
-  .socials-link:focus & {
+  .socials-list__link:hover &,
+  .socials-list__link:focus & {
     fill: #ffffff;
   }
 }
@@ -26,6 +26,6 @@
   justify-content: center;
 }
 
-.socials-item:not(:last-child) {
+.socials-list__item:not(:last-child) {
   margin-right: 10px;
 }

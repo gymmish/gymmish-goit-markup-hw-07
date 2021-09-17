@@ -16,13 +16,13 @@
   display: flex;
 }
 
-.gallery-item {
+.gallery-list__item {
   display: inline-flex;
   margin-right: 30px;
   position: relative;
 }
 
-.gallery-item-text {
+.gallery-list__item-text {
   color: #fff;
   position: absolute;
   display: flex;
