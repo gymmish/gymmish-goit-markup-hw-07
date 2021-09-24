@@ -1,6 +1,13 @@
 .about-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @media screen and (min-width: 480px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .section-about-icon {
@@ -30,15 +37,23 @@
   color: var(--main-text-color);
 }
 
-.about-list__item {
-  flex-basis: auto;
-  margin-right: 30px;
-  width: 270px;
-  &:last-child {
-    margin-right: 0px;
+.about-list {
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    display: flex;
   }
 }
 
-.about-list {
-  display: flex;
-}
+.about-list__item {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc(((100% - 60px) / 2));
+  }
+
+  @media screen and (min-width: 1200px) {
+    flex-basis: auto;
+    margin-right: 30px;
+    width: 270px;
+    &:last-child {
+      margin-right: 0px;
+    }
+  } 
