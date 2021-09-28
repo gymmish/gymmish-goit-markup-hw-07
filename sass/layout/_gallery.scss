@@ -1,6 +1,12 @@
 .gallery {
   padding-bottom: 94px;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    padding-bottom: 94px;
+  }
 }
+
 .gallery-title,
 .teem-title {
   font-weight: bold;
@@ -10,6 +16,14 @@
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 50px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
 }
 
 .gallery-list {
