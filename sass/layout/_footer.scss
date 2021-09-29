@@ -4,22 +4,44 @@
 }
 .container-footer {
   display: flex;
-  box-sizing: content-box;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+
+  @media screen and (min-width: 480px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
 .address {
-  margin-right: 70px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
+
+  // margin-right: 70px;
 }
 .footer-icon-list {
-  margin-right: 94px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
+
+  // margin-right: 94px;
 }
 
 .footer-icon {
   fill: white;
+}
+
+.input-footer-mail {
+  @media screen and (min-width: 480px) {
+    margin-bottom: 30px;
+  }
 }
 
 .socials-link {
