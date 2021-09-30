@@ -1,13 +1,17 @@
 .header {
   border-bottom: 1px solid #ececec;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .header__logo {
-  margin-right: 95px;
+  // margin-right: 95px;
+  margin: 16px 0 16px 15px;
 }
 
 .header-list {
-  display: flex;
+  // display: flex;
+  display: none;
 }
 
 .header-list .current {
@@ -19,9 +23,12 @@
   align-items: center;
 }
 
-.header .container {
-  display: flex;
-  align-items: center;
+.header {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .header-list__link {
@@ -81,6 +88,9 @@
   }
 }
 
+
+
+
 .header-contacts__icon {
   margin-right: 10px;
   color: currentColor;
@@ -90,3 +100,103 @@
     fill: var(--accent-color);
   }
 }
+
+.menu-open__burgesr {
+  fill: #212121;
+}
+
+.mob-menu {
+  width: 100vw;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 40px;
+}
+
+.menu-close {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  display: block;
+  margin-left: auto;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.menu-open {
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+
+.mob-menu-list__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mob-menu-list {
+  margin-bottom: 302px;
+}
+.mob-menu-list__link {
+  font-size: 40px;
+  color: #212121;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.mob-menu-contacts__link {
+  display: flex;
+  color: #757575;
+  padding-bottom: 64px;
+  font-size: 24px;
+  transition: color 250ms linear;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.tel {
+  font-size: 32px;
+  color: var(--accent-color);
+  padding-bottom: 32px;
+}
+
+.mob-sosial-list {
+  display: flex;
+  color: #2196f3;
+}
+
+.mob-sosial-item:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.mob-sosial-item:not(:first-child) {
+  margin-left: 10px;
+} 
+
+.mob-menu .is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;}
+
+
+
+
+
+
+
+
+
+
+
+
