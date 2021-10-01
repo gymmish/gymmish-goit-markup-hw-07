@@ -784,18 +784,29 @@ ul {
 
 .img {
   display: block;
+  width: 100%;
 }
 
-.portfolio-list {
-  margin-bottom: -30px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+@media screen and (min-width: 480px) {
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .portfolio-list {
     margin-right: -30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio-list {
+    margin-right: 0;
   }
 }
 
