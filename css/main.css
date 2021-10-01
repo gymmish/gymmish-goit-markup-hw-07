@@ -248,6 +248,7 @@ ul {
 }
 
 .mob-menu {
+  z-index: 6;
   display: flex;
   width: 100vw;
   height: 100vh;
