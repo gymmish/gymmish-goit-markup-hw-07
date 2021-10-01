@@ -58,7 +58,7 @@
   }
 }
 
-.header-list__item .current::after {
+.header-list .current::after {
   content: "";
   display: flex;
   justify-content: center;
