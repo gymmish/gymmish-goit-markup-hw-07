@@ -39,11 +39,10 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-bottom: 30px;
+  // margin-bottom: 30px;
 }
 
 .about-list {
-  width: 100%;
   @media screen and (min-width: 768px) {
     flex-wrap: wrap;
     display: flex;
@@ -51,6 +50,7 @@
 
   @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
+    margin-left: -30px;
   }
 }
 
@@ -65,9 +65,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    flex-basis: auto;
-    margin-right: 30px;
-    width: 270px;
+    margin-bottom: 0;
     &:last-child {
       margin-right: 0px;
     }

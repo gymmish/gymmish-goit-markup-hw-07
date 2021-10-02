@@ -7,15 +7,12 @@
   flex-direction: column;
   text-align: center;
 
-  @media screen and (min-width: 480px) {
-    text-align: center;
-  }
-
   @media screen and (min-width: 768px) {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
     justify-content: space-around;
+    text-align: start;
   }
 }
 
@@ -23,15 +20,19 @@
   @media screen and (min-width: 480px) {
     margin-bottom: 60px;
   }
-
-  // margin-right: 70px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
+
 .footer-icon-list {
   @media screen and (min-width: 480px) {
     margin-bottom: 60px;
   }
 
-  // margin-right: 94px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
 
 .footer-icon {
