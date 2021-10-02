@@ -12,6 +12,8 @@
     justify-content: center;
     flex-direction: row;
     justify-content: space-around;
+  }
+  @media screen and (min-width: 1200px) {
     text-align: start;
   }
 }
@@ -37,6 +39,15 @@
 
 .footer-icon {
   fill: white;
+}
+
+.mailing {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .input-footer-mail {
@@ -135,4 +146,5 @@
 
 .footer-btn-icon {
   margin-left: 10px;
+  fill: #ffffff;
 }

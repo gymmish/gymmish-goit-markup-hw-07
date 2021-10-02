@@ -16,8 +16,14 @@
 }
 
 .clients {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  @media screen and (min-width: 480px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  @media screen and (min-width: 480px) {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .clients-list {
@@ -38,12 +44,12 @@
   flex-wrap: wrap;
 
   @media screen and (min-width: 480px) {
-    flex-basis: calc(100% / 2 - 30px);
+    flex-basis: calc((100% -30px) / 2);
     margin-bottom: 30px;
   }
 
   @media screen and (min-width: 768px) {
-    flex-basis: calc(100% / 3 - 30px);
+    flex-basis: calc((100% -60px) / 3);
   }
 
   @media screen and (min-width: 1200px) {
@@ -59,7 +65,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -67,6 +72,15 @@
   &:hover,
   &:focus {
     border: 1px solid var(--accent-color);
+  }
+  @media screen and (min-width: 480px) {
+    width: 210px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
   }
 }
 

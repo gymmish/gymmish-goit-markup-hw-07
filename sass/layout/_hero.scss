@@ -1,19 +1,19 @@
 .hero__title {
   font-weight: 900;
   font-size: 26px;
-  line-height: calc (42 / 26);
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--secondary-title-colot);
   margin-bottom: 30px;
-  @media screen and (min-width: 1600px) {
+
+  @media screen and (min-width: 1200px) {
     font-size: 44px;
   }
 }
 
 .hero {
-  padding: 200px 0px;
   text-align: center;
   background-color: #2f303a;
   margin: auto;
@@ -26,6 +26,10 @@
   background-position: center;
   background-size: cover;
 
+  @media screen and (min-width: 480px) {
+    padding: 118px 0px;
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -35,6 +39,7 @@
       ),
       url(../images/hero/headerx2.jpg);
   }
+
   @media screen and (min-width: 768px) {
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
@@ -52,6 +57,7 @@
       url(../images/hero/hedertabx2.jpg);
   }
   @media screen and (min-width: 1200px) {
+    padding: 200px 0px;
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)

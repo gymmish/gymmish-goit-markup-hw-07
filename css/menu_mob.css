@@ -68,6 +68,7 @@
 }
 
 .mob-menu-list__link {
+  font-weight: 500;
   font-size: 40px;
   color: #212121;
 }
