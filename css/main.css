@@ -549,7 +549,7 @@ ul {
   justify-content: center;
   align-items: center;
   bottom: 0;
-  width: 370px;
+  width: 100%;
   height: 70px;
   font-size: 14px;
   text-align: center;
@@ -923,6 +923,7 @@ img {
 .portfolio-item {
   margin-bottom: 30px;
   box-sizing: border-box;
+  width: 100%;
   transition: box-shadow 250ms linear;
 }
 
