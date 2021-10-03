@@ -319,6 +319,7 @@ ul {
   color: #757575;
   padding-bottom: 64px;
   font-size: 24px;
+  font-weight: 500;
   transition: color 250ms linear;
 }
 
@@ -515,7 +516,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 480px) {
@@ -529,6 +530,7 @@ ul {
   .gallery-title,
   .teem-title {
     font-size: 36px;
+    margin-bottom: 50px;
   }
 }
 
@@ -791,7 +793,7 @@ img {
 }
 
 .input-footer-mail {
-  width: 358px;
+  width: 450px;
   height: 50px;
   left: 815px;
   top: 2787px;
@@ -802,6 +804,12 @@ img {
   padding-left: 16px;
   color: var(--secondary-title-colot);
   margin-right: 12px;
+}
+
+@media screen and (min-width: 1200px) {
+  .input-footer-mail {
+    width: 358px;
+  }
 }
 
 .menu-button {
@@ -1152,7 +1160,6 @@ img {
 
 .modal {
   position: absolute;
-  width: 528px;
   min-height: 581px;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1161,6 +1168,13 @@ img {
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 40px;
+  width: 450px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
 }
 
 .btn-modal {
